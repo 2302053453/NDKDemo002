@@ -1,0 +1,16 @@
+Executable : /Users/zhaoyongliang/tools/android_sdks/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app
+-B/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/Users/zhaoyongliang/tools/android-ndk-r13b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/Users/zhaoyongliang/tools/android_sdks/sdk/cmake/3.6.4111459/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/zhaoyongliang/tools/android-ndk-r13b/build/cmake/android.toolchain.cmake
+-DANDROID_PLATFORM=android-14
+-DCMAKE_CXX_FLAGS=
+-DANDROID_TOOLCHAIN=clang
+jvmArgs : 
+

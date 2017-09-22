@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhaoyongliang/tools/android_sdks/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"hellondk-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "hellondk",
+			"buildCommand" : "/Users/zhaoyongliang/tools/android_sdks/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/.externalNativeBuild/cmake/release/arm64-v8a --target hellondk",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain /Users/zhaoyongliang/tools/android-ndk-r13b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhaoyongliang/tools/android-ndk-r13b/platforms/android-21/arch-arm64 -Dhellondk_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/src/main/cpp/com_zyl_ndkdemo002_cpp_HelloNDK.c",
+					"workingDirectory" : "/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/build/intermediates/cmake/release/obj/arm64-v8a/libhellondk.so",
+			"toolchain" : "10043037914575295684"
+		}
+	},
+	"toolchains" : 
+	{
+		"10043037914575295684" : 
+		{
+			"cCompilerExecutable" : "/Users/zhaoyongliang/tools/android-ndk-r13b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhaoyongliang/tools/android-ndk-r13b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

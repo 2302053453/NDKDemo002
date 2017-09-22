@@ -1,0 +1,3 @@
+/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/zhaoyongliang/workspace/myandroid/NDKDemo002/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/hellondk.dir

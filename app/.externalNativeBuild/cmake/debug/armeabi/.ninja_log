@@ -1,0 +1,3 @@
+# ninja log v5
+0	70	0	CMakeFiles/hellondk.dir/src/main/cpp/com_zyl_ndkdemo002_cpp_HelloNDK.c.o	34621e5955342f41
+70	107	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libhellondk.so	9ebb4b041421cc15
